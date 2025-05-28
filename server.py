@@ -3,10 +3,10 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from supabase import create_client
 import requests
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import psycopg2
 
-load_dotenv()
+# load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
