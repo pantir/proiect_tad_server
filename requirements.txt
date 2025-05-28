@@ -1,0 +1,6 @@
+flask
+flask-cors
+requests
+python-dotenv
+supabase
+psycopg2-binary
