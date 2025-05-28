@@ -220,4 +220,4 @@ def delete_custom(cid):
 
 if __name__ == "__main__":
     initialize_supabase_table()
-    app.run(debug=True, port=5001)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5001)))
